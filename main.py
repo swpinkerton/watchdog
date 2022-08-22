@@ -49,6 +49,16 @@ from ppadb.client import Client as AdbClient
 import time
 from ppadb.client import Client as AdbClient
 import pytesseract
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+
+# SCOPE:
+scope =["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
+
+creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
+client = gspread.authorize((creds))
+sheet = client.open('QTUG results').worksheet('Kinesis QTUG Results')
+row = sheet.row_values(2)
 
 pytesseract.pytesseract.tesseract_cmd = r'c:/tools/tesseract/tesseract'
 
@@ -85,8 +95,21 @@ def readimage(img):
     text = (pytesseract.image_to_string(img))
     return(text)
 
+def previousfallrisk():
+    return int(sheet.cell(2,1).value)
+
+def previousfalltime():
+    return str(sheet.cell(2,2).value)
+
+def insert(fallrisk,time):
+    insertRow = [fallrisk,time]
+    sheet.insert_row(insertRow, 2)
+
 if __name__ == '__main__':
     device, client = connect()
+    previousfall = previousfallrisk()
+    previousfalltime = previousfalltime()
+    print(previousfall)
     while(1):
 
         screenshot = device.screencap()
@@ -103,9 +126,10 @@ if __name__ == '__main__':
             txt_num = readimage(img_num)
             txt_time = readimage(img_time)
             fallRisk = int(txt_num.split('%')[0])
-            if (previousfalltime!= txt_time and previousfall != fallRisk):
+            if (previousfalltime!= txt_time or previousfall != fallRisk):
                 previousfalltime = txt_time
                 previousfall = fallRisk
-                print(fallRisk)
+                insert(fallRisk, txt_time)
+                print(str(fallRisk) + 'inserted')
 
         time.sleep(5)
