@@ -46,15 +46,14 @@
 #     my_observer.join()
 from PIL import Image
 from ppadb.client import Client as AdbClient
-
 import time
 from ppadb.client import Client as AdbClient
-# from Pillow import Image
-from pytesseract import pytesseract
+import pytesseract
 
-fallriskwords = '322 328'
-fallrisknumber = '370 490'
+pytesseract.pytesseract.tesseract_cmd = r'c:/tools/tesseract/tesseract'
+
 previousfall = 0
+previousfalltime = ''
 
 def connect():
     client = AdbClient(host="127.0.0.1", port=5037) # Default is "127.0.0.1" and 5037
@@ -71,6 +70,21 @@ def connect():
 
     return device, client
 
+def fallriskcrop():
+    global img_Falls_risk_estimate_sensor
+    global img_num
+    global img_time
+    img = Image.open(r"C:/Users/swpin/Downloads/result.png")
+    img_Falls_risk_estimate_sensor = img.crop((300, 300, 500, 375))
+    img_num = img.crop((350, 460, 450, 500))
+    img_time = img.crop((650, 90, 720, 120))
+    # img_Falls_risk_estimate_sensor.show()
+    # img_num.show()
+
+def readimage(img):
+    text = (pytesseract.image_to_string(img))
+    return(text)
+
 if __name__ == '__main__':
     device, client = connect()
     while(1):
@@ -81,15 +95,17 @@ if __name__ == '__main__':
             f.write(screenshot)
             print('Saved screenshot!')
 
+        fallriskcrop()
 
+        txt_Falls_risk_estimate_sensor = readimage(img_Falls_risk_estimate_sensor)
+        split = txt_Falls_risk_estimate_sensor.split('\n')
+        if split[0] == 'Falls risk estimate' and split[1] == 'sensor':
+            txt_num = readimage(img_num)
+            txt_time = readimage(img_time)
+            fallRisk = int(txt_num.split('%')[0])
+            if (previousfalltime!= txt_time and previousfall != fallRisk):
+                previousfalltime = txt_time
+                previousfall = fallRisk
+                print(fallRisk)
 
-        time.sleep(3)
-
-def fallriskcrop():
-    img = Image.open(r"C:/Users/swpin/Downloads/result.png")
-    left = 0
-    top = 50
-    right = 510
-    bottom = 292
-    img_res = img.crop((left, top, right, bottom))
-    img_res.show()
+        time.sleep(5)
