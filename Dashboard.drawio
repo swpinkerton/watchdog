@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T10:46:53.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="P9H_gd81Cp4i0k0jai3y" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T13:59:39.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vZ9L5Pl5ITjvC35G0myV" version="20.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="742.5" y="166.28" width="62.5" height="63.72" as="geometry" />
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="740" y="270" width="65" height="65" as="geometry" />
+          <mxGeometry x="742.5" y="280" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.computerhope.com/jargon/g/google-sheets.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="180" width="70" height="65" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="5MIRYiNxWabYfLPJPBUw-13" value="Kinesis Wearable&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="4.55" y="100" width="95.45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5MIRYiNxWabYfLPJPBUw-18" value="ADB" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5MIRYiNxWabYfLPJPBUw-15" target="5MIRYiNxWabYfLPJPBUw-17" edge="1">
+        <mxCell id="5MIRYiNxWabYfLPJPBUw-18" value="ScreenShot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5MIRYiNxWabYfLPJPBUw-15" target="5MIRYiNxWabYfLPJPBUw-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-15" value="Tablet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -46,8 +46,8 @@
         <mxCell id="5MIRYiNxWabYfLPJPBUw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5MIRYiNxWabYfLPJPBUw-17" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="161" />
-              <mxPoint x="450" y="80" />
+              <mxPoint x="460" y="161" />
+              <mxPoint x="460" y="80" />
               <mxPoint x="650" y="80" />
               <mxPoint x="650" y="230" />
             </Array>
@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-17" value="Laptop&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="304" y="135.98" width="110" height="50" as="geometry" />
+          <mxGeometry x="304" y="145" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/max/924/1*mRuCeuTtn3Nncus34QmdDA.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="304" y="50" width="139.89" height="60" as="geometry" />
+          <mxGeometry x="270" y="205" width="139.89" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-28" value="Txt File" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5MIRYiNxWabYfLPJPBUw-22" target="5MIRYiNxWabYfLPJPBUw-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -90,13 +90,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5MIRYiNxWabYfLPJPBUw-27" value="Host Machine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="390" width="120" height="70" as="geometry" />
+          <mxGeometry x="240" y="360" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="R10aCHOrtXkOKoe5_AvA-0" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px;&quot;&gt;Kinesis QTUG &lt;br&gt;Fall Risk Percentage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="140" width="170" height="50" as="geometry" />
+        <mxCell id="R10aCHOrtXkOKoe5_AvA-0" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 16px;&quot;&gt;Kinesis QTUG &lt;br&gt;Fall Risk Percentage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-200" y="95" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="R10aCHOrtXkOKoe5_AvA-1" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Machine Learning &lt;br&gt;Fall Risk Classification&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5" y="470" width="180" height="50" as="geometry" />
+        <mxCell id="R10aCHOrtXkOKoe5_AvA-1" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Machine Learning &lt;br&gt;Fall Risk Classification&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-200" y="400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-0" value="Kinesis Measures &lt;br&gt;gait parameters" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-7.729999999999997" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-1" value="The tablet Uses said &lt;br&gt;measurements to create &lt;br&gt;a fall risk estimate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="145" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iBOz8OGd0gswToYnIVc9-2" target="5MIRYiNxWabYfLPJPBUw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-2" value="The laptop tells the tablet to &lt;br&gt;send a screen shot of its self &lt;br&gt;every 5 seconds. The laptop then&lt;br&gt;crops/Isolates areas of the screenshot.&lt;br&gt;With these crops I used image to text&lt;br&gt;to analyse the screenshot for key words,&lt;br&gt;if they are pressent then I extract the&amp;nbsp;&lt;br&gt;Fall risk estimate to the google sheet&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="219.95" y="-50" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-4" value="The Virtual machine is constantly&lt;br&gt;analysing the CSI patterns for&lt;br&gt;distortion , if this is&amp;nbsp;&lt;br&gt;detected to a high enough a degree&amp;nbsp;&lt;br&gt;then the distortion pattern is analysed&amp;nbsp;&lt;br&gt;for a machine learning classification&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="460" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-5" value="The classification is shared in the txt file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="360" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOz8OGd0gswToYnIVc9-6" value="The host machine is constantly&amp;nbsp;&lt;br&gt;scanning for changes to this text file&lt;br&gt;if present then it will upload the contents&lt;br&gt;to the google sheet." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="470" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
